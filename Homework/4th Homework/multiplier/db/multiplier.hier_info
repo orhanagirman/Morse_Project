@@ -1,0 +1,126 @@
+|multiplier
+mc0 => mc0.IN1
+mc1 => mc1.IN1
+mc2 => mc2.IN1
+mc3 => mc3.IN1
+ml0 => xora.IN1
+ml1 => xorb.IN1
+start => start.IN4
+clock => wclock.IN1
+out1 <= adder_with_memory:awm1.port0
+out2 <= adder_with_memory:awm2.port0
+out3 <= adder_with_memory:awm3.port0
+out4 <= adder_with_memory:awm4.port0
+out5 <= adder_with_memory:awm5.port0
+out6 <= adder_with_memory:awm5.port1
+
+
+|multiplier|adder_with_memory:awmcounter0
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= a5.DB_MAX_OUTPUT_PORT_TYPE
+inp1 => a1.IN1
+inp1 => a2.IN1
+clk => n1.IN0
+clk => n2.IN0
+cin => a3.IN1
+cin => a4.IN1
+
+
+|multiplier|adder_with_memory:awmcounter1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= a5.DB_MAX_OUTPUT_PORT_TYPE
+inp1 => a1.IN1
+inp1 => a2.IN1
+clk => n1.IN0
+clk => n2.IN0
+cin => a3.IN1
+cin => a4.IN1
+
+
+|multiplier|my_muxa:mux1
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|multiplier|my_muxa:mux2
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|multiplier|my_muxa:mux3
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|multiplier|my_muxa:mux4
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|multiplier|adder_with_memory:awm1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= a5.DB_MAX_OUTPUT_PORT_TYPE
+inp1 => a1.IN1
+inp1 => a2.IN1
+clk => n1.IN0
+clk => n2.IN0
+cin => a3.IN1
+cin => a4.IN1
+
+
+|multiplier|adder_with_memory:awm2
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= a5.DB_MAX_OUTPUT_PORT_TYPE
+inp1 => a1.IN1
+inp1 => a2.IN1
+clk => n1.IN0
+clk => n2.IN0
+cin => a3.IN1
+cin => a4.IN1
+
+
+|multiplier|adder_with_memory:awm3
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= a5.DB_MAX_OUTPUT_PORT_TYPE
+inp1 => a1.IN1
+inp1 => a2.IN1
+clk => n1.IN0
+clk => n2.IN0
+cin => a3.IN1
+cin => a4.IN1
+
+
+|multiplier|adder_with_memory:awm4
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= a5.DB_MAX_OUTPUT_PORT_TYPE
+inp1 => a1.IN1
+inp1 => a2.IN1
+clk => n1.IN0
+clk => n2.IN0
+cin => a3.IN1
+cin => a4.IN1
+
+
+|multiplier|adder_with_memory:awm5
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= a5.DB_MAX_OUTPUT_PORT_TYPE
+inp1 => a1.IN1
+inp1 => a2.IN1
+clk => n1.IN0
+clk => n2.IN0
+cin => a3.IN1
+cin => a4.IN1
+
+

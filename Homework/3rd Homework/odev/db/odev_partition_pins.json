@@ -1,0 +1,93 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "out1",
+					"strict" : false
+				},
+				{
+					"name" : "out2",
+					"strict" : false
+				},
+				{
+					"name" : "out3",
+					"strict" : false
+				},
+				{
+					"name" : "out4",
+					"strict" : false
+				},
+				{
+					"name" : "out5",
+					"strict" : false
+				},
+				{
+					"name" : "out6",
+					"strict" : false
+				},
+				{
+					"name" : "out7",
+					"strict" : false
+				},
+				{
+					"name" : "out8",
+					"strict" : false
+				},
+				{
+					"name" : "add0",
+					"strict" : false
+				},
+				{
+					"name" : "EN",
+					"strict" : false
+				},
+				{
+					"name" : "add1",
+					"strict" : false
+				},
+				{
+					"name" : "i0",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "WR",
+					"strict" : false
+				},
+				{
+					"name" : "i2",
+					"strict" : false
+				},
+				{
+					"name" : "i3",
+					"strict" : false
+				},
+				{
+					"name" : "i4",
+					"strict" : false
+				},
+				{
+					"name" : "i5",
+					"strict" : false
+				},
+				{
+					"name" : "i6",
+					"strict" : false
+				},
+				{
+					"name" : "i7",
+					"strict" : false
+				},
+				{
+					"name" : "i8",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

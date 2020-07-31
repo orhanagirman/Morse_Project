@@ -1,0 +1,794 @@
+|odev
+i0 => i0.IN1
+i2 => i2.IN1
+i3 => i3.IN1
+i4 => i4.IN1
+i5 => i5.IN1
+i6 => i6.IN1
+i7 => i7.IN1
+i8 => i8.IN1
+add1 => add1.IN16
+add0 => add0.IN16
+EN => out1.IN1
+EN => out2.IN1
+EN => out3.IN1
+EN => out4.IN1
+EN => out5.IN1
+EN => out6.IN1
+EN => out7.IN1
+EN => out8.IN1
+WR => WR.IN32
+clk => clk1.IN0
+clk => clk2.IN0
+clk => clk3.IN0
+clk => clk4.IN0
+out1 << out1.DB_MAX_OUTPUT_PORT_TYPE
+out2 << out2.DB_MAX_OUTPUT_PORT_TYPE
+out3 << out3.DB_MAX_OUTPUT_PORT_TYPE
+out4 << out4.DB_MAX_OUTPUT_PORT_TYPE
+out5 << out5.DB_MAX_OUTPUT_PORT_TYPE
+out6 << out6.DB_MAX_OUTPUT_PORT_TYPE
+out7 << out7.DB_MAX_OUTPUT_PORT_TYPE
+out8 << out8.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|odev|demux:dmx1
+a1 <= a1.DB_MAX_OUTPUT_PORT_TYPE
+b1 <= b1.DB_MAX_OUTPUT_PORT_TYPE
+c1 <= c1.DB_MAX_OUTPUT_PORT_TYPE
+d1 <= d1.DB_MAX_OUTPUT_PORT_TYPE
+s1 => c1.IN1
+s1 => d1.IN1
+s1 => a1.IN1
+s1 => b1.IN1
+s0 => b1.IN0
+s0 => a1.IN0
+inpt => a1.IN1
+inpt => b1.IN1
+
+
+|odev|demux:dmx2
+a1 <= a1.DB_MAX_OUTPUT_PORT_TYPE
+b1 <= b1.DB_MAX_OUTPUT_PORT_TYPE
+c1 <= c1.DB_MAX_OUTPUT_PORT_TYPE
+d1 <= d1.DB_MAX_OUTPUT_PORT_TYPE
+s1 => c1.IN1
+s1 => d1.IN1
+s1 => a1.IN1
+s1 => b1.IN1
+s0 => b1.IN0
+s0 => a1.IN0
+inpt => a1.IN1
+inpt => b1.IN1
+
+
+|odev|demux:dmx3
+a1 <= a1.DB_MAX_OUTPUT_PORT_TYPE
+b1 <= b1.DB_MAX_OUTPUT_PORT_TYPE
+c1 <= c1.DB_MAX_OUTPUT_PORT_TYPE
+d1 <= d1.DB_MAX_OUTPUT_PORT_TYPE
+s1 => c1.IN1
+s1 => d1.IN1
+s1 => a1.IN1
+s1 => b1.IN1
+s0 => b1.IN0
+s0 => a1.IN0
+inpt => a1.IN1
+inpt => b1.IN1
+
+
+|odev|demux:dmx4
+a1 <= a1.DB_MAX_OUTPUT_PORT_TYPE
+b1 <= b1.DB_MAX_OUTPUT_PORT_TYPE
+c1 <= c1.DB_MAX_OUTPUT_PORT_TYPE
+d1 <= d1.DB_MAX_OUTPUT_PORT_TYPE
+s1 => c1.IN1
+s1 => d1.IN1
+s1 => a1.IN1
+s1 => b1.IN1
+s0 => b1.IN0
+s0 => a1.IN0
+inpt => a1.IN1
+inpt => b1.IN1
+
+
+|odev|demux:dmx5
+a1 <= a1.DB_MAX_OUTPUT_PORT_TYPE
+b1 <= b1.DB_MAX_OUTPUT_PORT_TYPE
+c1 <= c1.DB_MAX_OUTPUT_PORT_TYPE
+d1 <= d1.DB_MAX_OUTPUT_PORT_TYPE
+s1 => c1.IN1
+s1 => d1.IN1
+s1 => a1.IN1
+s1 => b1.IN1
+s0 => b1.IN0
+s0 => a1.IN0
+inpt => a1.IN1
+inpt => b1.IN1
+
+
+|odev|demux:dmx6
+a1 <= a1.DB_MAX_OUTPUT_PORT_TYPE
+b1 <= b1.DB_MAX_OUTPUT_PORT_TYPE
+c1 <= c1.DB_MAX_OUTPUT_PORT_TYPE
+d1 <= d1.DB_MAX_OUTPUT_PORT_TYPE
+s1 => c1.IN1
+s1 => d1.IN1
+s1 => a1.IN1
+s1 => b1.IN1
+s0 => b1.IN0
+s0 => a1.IN0
+inpt => a1.IN1
+inpt => b1.IN1
+
+
+|odev|demux:dmx7
+a1 <= a1.DB_MAX_OUTPUT_PORT_TYPE
+b1 <= b1.DB_MAX_OUTPUT_PORT_TYPE
+c1 <= c1.DB_MAX_OUTPUT_PORT_TYPE
+d1 <= d1.DB_MAX_OUTPUT_PORT_TYPE
+s1 => c1.IN1
+s1 => d1.IN1
+s1 => a1.IN1
+s1 => b1.IN1
+s0 => b1.IN0
+s0 => a1.IN0
+inpt => a1.IN1
+inpt => b1.IN1
+
+
+|odev|demux:dmx8
+a1 <= a1.DB_MAX_OUTPUT_PORT_TYPE
+b1 <= b1.DB_MAX_OUTPUT_PORT_TYPE
+c1 <= c1.DB_MAX_OUTPUT_PORT_TYPE
+d1 <= d1.DB_MAX_OUTPUT_PORT_TYPE
+s1 => c1.IN1
+s1 => d1.IN1
+s1 => a1.IN1
+s1 => b1.IN1
+s0 => b1.IN0
+s0 => a1.IN0
+inpt => a1.IN1
+inpt => b1.IN1
+
+
+|odev|my_muxa:muxa1
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|odev|my_muxa:muxa2
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|odev|my_muxa:muxa3
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|odev|my_muxa:muxa4
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|odev|my_muxa:muxa5
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|odev|my_muxa:muxa6
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|odev|my_muxa:muxa7
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|odev|my_muxa:muxa8
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|odev|my_muxa:muxb1
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|odev|my_muxa:muxb2
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|odev|my_muxa:muxb3
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|odev|my_muxa:muxb4
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|odev|my_muxa:muxb5
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|odev|my_muxa:muxb6
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|odev|my_muxa:muxb7
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|odev|my_muxa:muxb8
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|odev|my_muxa:muxc1
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|odev|my_muxa:muxc2
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|odev|my_muxa:muxc3
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|odev|my_muxa:muxc4
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|odev|my_muxa:muxc5
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|odev|my_muxa:muxc6
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|odev|my_muxa:muxc7
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|odev|my_muxa:muxc8
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|odev|my_muxa:muxd1
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|odev|my_muxa:muxd2
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|odev|my_muxa:muxd3
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|odev|my_muxa:muxd4
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|odev|my_muxa:muxd5
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|odev|my_muxa:muxd6
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|odev|my_muxa:muxd7
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|odev|my_muxa:muxd8
+muxout <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxsw => muxout.IN0
+muxsw => muxout.IN0
+muxinp0 => muxout.IN1
+muxinp1 => muxout.IN1
+
+
+|odev|dflipflop:dffa1
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+clock => n1.IN0
+clock => n2.IN0
+D => n1.IN1
+D => n2.IN1
+
+
+|odev|dflipflop:dffa2
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+clock => n1.IN0
+clock => n2.IN0
+D => n1.IN1
+D => n2.IN1
+
+
+|odev|dflipflop:dffa3
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+clock => n1.IN0
+clock => n2.IN0
+D => n1.IN1
+D => n2.IN1
+
+
+|odev|dflipflop:dffa4
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+clock => n1.IN0
+clock => n2.IN0
+D => n1.IN1
+D => n2.IN1
+
+
+|odev|dflipflop:dffa5
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+clock => n1.IN0
+clock => n2.IN0
+D => n1.IN1
+D => n2.IN1
+
+
+|odev|dflipflop:dffa6
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+clock => n1.IN0
+clock => n2.IN0
+D => n1.IN1
+D => n2.IN1
+
+
+|odev|dflipflop:dffa7
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+clock => n1.IN0
+clock => n2.IN0
+D => n1.IN1
+D => n2.IN1
+
+
+|odev|dflipflop:dffa8
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+clock => n1.IN0
+clock => n2.IN0
+D => n1.IN1
+D => n2.IN1
+
+
+|odev|dflipflop:dffb1
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+clock => n1.IN0
+clock => n2.IN0
+D => n1.IN1
+D => n2.IN1
+
+
+|odev|dflipflop:dffb2
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+clock => n1.IN0
+clock => n2.IN0
+D => n1.IN1
+D => n2.IN1
+
+
+|odev|dflipflop:dffb3
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+clock => n1.IN0
+clock => n2.IN0
+D => n1.IN1
+D => n2.IN1
+
+
+|odev|dflipflop:dffb4
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+clock => n1.IN0
+clock => n2.IN0
+D => n1.IN1
+D => n2.IN1
+
+
+|odev|dflipflop:dffb5
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+clock => n1.IN0
+clock => n2.IN0
+D => n1.IN1
+D => n2.IN1
+
+
+|odev|dflipflop:dffb6
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+clock => n1.IN0
+clock => n2.IN0
+D => n1.IN1
+D => n2.IN1
+
+
+|odev|dflipflop:dffb7
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+clock => n1.IN0
+clock => n2.IN0
+D => n1.IN1
+D => n2.IN1
+
+
+|odev|dflipflop:dffb8
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+clock => n1.IN0
+clock => n2.IN0
+D => n1.IN1
+D => n2.IN1
+
+
+|odev|dflipflop:dffc1
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+clock => n1.IN0
+clock => n2.IN0
+D => n1.IN1
+D => n2.IN1
+
+
+|odev|dflipflop:dffc2
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+clock => n1.IN0
+clock => n2.IN0
+D => n1.IN1
+D => n2.IN1
+
+
+|odev|dflipflop:dffc3
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+clock => n1.IN0
+clock => n2.IN0
+D => n1.IN1
+D => n2.IN1
+
+
+|odev|dflipflop:dffc4
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+clock => n1.IN0
+clock => n2.IN0
+D => n1.IN1
+D => n2.IN1
+
+
+|odev|dflipflop:dffc5
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+clock => n1.IN0
+clock => n2.IN0
+D => n1.IN1
+D => n2.IN1
+
+
+|odev|dflipflop:dffc6
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+clock => n1.IN0
+clock => n2.IN0
+D => n1.IN1
+D => n2.IN1
+
+
+|odev|dflipflop:dffc7
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+clock => n1.IN0
+clock => n2.IN0
+D => n1.IN1
+D => n2.IN1
+
+
+|odev|dflipflop:dffc8
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+clock => n1.IN0
+clock => n2.IN0
+D => n1.IN1
+D => n2.IN1
+
+
+|odev|dflipflop:dffd1
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+clock => n1.IN0
+clock => n2.IN0
+D => n1.IN1
+D => n2.IN1
+
+
+|odev|dflipflop:dffd2
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+clock => n1.IN0
+clock => n2.IN0
+D => n1.IN1
+D => n2.IN1
+
+
+|odev|dflipflop:dffd3
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+clock => n1.IN0
+clock => n2.IN0
+D => n1.IN1
+D => n2.IN1
+
+
+|odev|dflipflop:dffd4
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+clock => n1.IN0
+clock => n2.IN0
+D => n1.IN1
+D => n2.IN1
+
+
+|odev|dflipflop:dffd5
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+clock => n1.IN0
+clock => n2.IN0
+D => n1.IN1
+D => n2.IN1
+
+
+|odev|dflipflop:dffd6
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+clock => n1.IN0
+clock => n2.IN0
+D => n1.IN1
+D => n2.IN1
+
+
+|odev|dflipflop:dffd7
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+clock => n1.IN0
+clock => n2.IN0
+D => n1.IN1
+D => n2.IN1
+
+
+|odev|dflipflop:dffd8
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+clock => n1.IN0
+clock => n2.IN0
+D => n1.IN1
+D => n2.IN1
+
+
+|odev|my_muxb:mux1
+muxoutb <= muxoutb.DB_MAX_OUTPUT_PORT_TYPE
+muxsw1 => muxoutb.IN0
+muxsw1 => muxoutb.IN0
+muxsw1 => muxoutb.IN0
+muxsw1 => muxoutb.IN0
+muxsw0 => muxoutb.IN1
+muxsw0 => muxoutb.IN1
+muxsw0 => muxoutb.IN1
+muxsw0 => muxoutb.IN1
+inp0 => muxoutb.IN1
+inp1 => muxoutb.IN1
+inp2 => muxoutb.IN1
+inp3 => muxoutb.IN1
+
+
+|odev|my_muxb:mux2
+muxoutb <= muxoutb.DB_MAX_OUTPUT_PORT_TYPE
+muxsw1 => muxoutb.IN0
+muxsw1 => muxoutb.IN0
+muxsw1 => muxoutb.IN0
+muxsw1 => muxoutb.IN0
+muxsw0 => muxoutb.IN1
+muxsw0 => muxoutb.IN1
+muxsw0 => muxoutb.IN1
+muxsw0 => muxoutb.IN1
+inp0 => muxoutb.IN1
+inp1 => muxoutb.IN1
+inp2 => muxoutb.IN1
+inp3 => muxoutb.IN1
+
+
+|odev|my_muxb:mux3
+muxoutb <= muxoutb.DB_MAX_OUTPUT_PORT_TYPE
+muxsw1 => muxoutb.IN0
+muxsw1 => muxoutb.IN0
+muxsw1 => muxoutb.IN0
+muxsw1 => muxoutb.IN0
+muxsw0 => muxoutb.IN1
+muxsw0 => muxoutb.IN1
+muxsw0 => muxoutb.IN1
+muxsw0 => muxoutb.IN1
+inp0 => muxoutb.IN1
+inp1 => muxoutb.IN1
+inp2 => muxoutb.IN1
+inp3 => muxoutb.IN1
+
+
+|odev|my_muxb:mux4
+muxoutb <= muxoutb.DB_MAX_OUTPUT_PORT_TYPE
+muxsw1 => muxoutb.IN0
+muxsw1 => muxoutb.IN0
+muxsw1 => muxoutb.IN0
+muxsw1 => muxoutb.IN0
+muxsw0 => muxoutb.IN1
+muxsw0 => muxoutb.IN1
+muxsw0 => muxoutb.IN1
+muxsw0 => muxoutb.IN1
+inp0 => muxoutb.IN1
+inp1 => muxoutb.IN1
+inp2 => muxoutb.IN1
+inp3 => muxoutb.IN1
+
+
+|odev|my_muxb:mux5
+muxoutb <= muxoutb.DB_MAX_OUTPUT_PORT_TYPE
+muxsw1 => muxoutb.IN0
+muxsw1 => muxoutb.IN0
+muxsw1 => muxoutb.IN0
+muxsw1 => muxoutb.IN0
+muxsw0 => muxoutb.IN1
+muxsw0 => muxoutb.IN1
+muxsw0 => muxoutb.IN1
+muxsw0 => muxoutb.IN1
+inp0 => muxoutb.IN1
+inp1 => muxoutb.IN1
+inp2 => muxoutb.IN1
+inp3 => muxoutb.IN1
+
+
+|odev|my_muxb:mux6
+muxoutb <= muxoutb.DB_MAX_OUTPUT_PORT_TYPE
+muxsw1 => muxoutb.IN0
+muxsw1 => muxoutb.IN0
+muxsw1 => muxoutb.IN0
+muxsw1 => muxoutb.IN0
+muxsw0 => muxoutb.IN1
+muxsw0 => muxoutb.IN1
+muxsw0 => muxoutb.IN1
+muxsw0 => muxoutb.IN1
+inp0 => muxoutb.IN1
+inp1 => muxoutb.IN1
+inp2 => muxoutb.IN1
+inp3 => muxoutb.IN1
+
+
+|odev|my_muxb:mux7
+muxoutb <= muxoutb.DB_MAX_OUTPUT_PORT_TYPE
+muxsw1 => muxoutb.IN0
+muxsw1 => muxoutb.IN0
+muxsw1 => muxoutb.IN0
+muxsw1 => muxoutb.IN0
+muxsw0 => muxoutb.IN1
+muxsw0 => muxoutb.IN1
+muxsw0 => muxoutb.IN1
+muxsw0 => muxoutb.IN1
+inp0 => muxoutb.IN1
+inp1 => muxoutb.IN1
+inp2 => muxoutb.IN1
+inp3 => muxoutb.IN1
+
+
+|odev|my_muxb:mux8
+muxoutb <= muxoutb.DB_MAX_OUTPUT_PORT_TYPE
+muxsw1 => muxoutb.IN0
+muxsw1 => muxoutb.IN0
+muxsw1 => muxoutb.IN0
+muxsw1 => muxoutb.IN0
+muxsw0 => muxoutb.IN1
+muxsw0 => muxoutb.IN1
+muxsw0 => muxoutb.IN1
+muxsw0 => muxoutb.IN1
+inp0 => muxoutb.IN1
+inp1 => muxoutb.IN1
+inp2 => muxoutb.IN1
+inp3 => muxoutb.IN1
+
+

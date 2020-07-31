@@ -1,0 +1,178 @@
+// Copyright (C) 2018  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "12/09/2019 23:41:23"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          adcproject2
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module adcproject2_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg i0;
+reg i2;
+reg i3;
+reg i4;
+reg i5;
+reg i6;
+reg i7;
+reg ia;
+// wires                                               
+wire a;
+wire b;
+wire c;
+wire d;
+wire e;
+wire e0;
+wire e1;
+wire e2;
+wire f;
+wire g;
+wire q0;
+wire q1;
+wire q2;
+wire w0;
+wire w1;
+wire w2;
+
+// assign statements (if any)                          
+adcproject2 i1 (
+// port map - connection between master ports and signals/registers   
+	.a(a),
+	.b(b),
+	.c(c),
+	.d(d),
+	.e(e),
+	.e0(e0),
+	.e1(e1),
+	.e2(e2),
+	.f(f),
+	.g(g),
+	.i0(i0),
+	.i2(i2),
+	.i3(i3),
+	.i4(i4),
+	.i5(i5),
+	.i6(i6),
+	.i7(i7),
+	.ia(ia),
+	.q0(q0),
+	.q1(q1),
+	.q2(q2),
+	.w0(w0),
+	.w1(w1),
+	.w2(w2)
+);
+initial 
+begin 
+#100000000 $finish;
+end 
+
+// i7
+initial
+begin
+	i7 = 1'b0;
+	i7 = #40000000 1'b1;
+	i7 = #40000000 1'b0;
+end 
+
+// i6
+initial
+begin
+	i6 = 1'b0;
+	i6 = #20000000 1'b1;
+	i6 = #20000000 1'b0;
+	i6 = #10000000 1'b1;
+	i6 = #30000000 1'b0;
+end 
+
+// i5
+initial
+begin
+	i5 = 1'b0;
+	i5 = #10000000 1'b1;
+	i5 = #10000000 1'b0;
+	i5 = #10000000 1'b1;
+	i5 = #20000000 1'b0;
+	i5 = #10000000 1'b1;
+	i5 = #20000000 1'b0;
+end 
+
+// i4
+initial
+begin
+	i4 = 1'b1;
+	i4 = #10000000 1'b0;
+	i4 = #20000000 1'b1;
+	i4 = #10000000 1'b0;
+	i4 = #30000000 1'b1;
+	i4 = #10000000 1'b0;
+end 
+
+// i3
+initial
+begin
+	i3 = 1'b1;
+	i3 = #10000000 1'b0;
+	i3 = #10000000 1'b1;
+	i3 = #10000000 1'b0;
+	i3 = #10000000 1'b1;
+	i3 = #10000000 1'b0;
+	i3 = #20000000 1'b1;
+	i3 = #10000000 1'b0;
+end 
+
+// i2
+initial
+begin
+	i2 = 1'b0;
+	i2 = #10000000 1'b1;
+	i2 = #10000000 1'b0;
+	i2 = #40000000 1'b1;
+	i2 = #20000000 1'b0;
+end 
+
+// ia
+initial
+begin
+	ia = 1'b0;
+	ia = #10000000 1'b1;
+	ia = #40000000 1'b0;
+	ia = #10000000 1'b1;
+	ia = #20000000 1'b0;
+end 
+
+// i0
+initial
+begin
+	i0 = 1'b1;
+	i0 = #10000000 1'b0;
+	i0 = #10000000 1'b1;
+	i0 = #20000000 1'b0;
+	i0 = #10000000 1'b1;
+	i0 = #10000000 1'b0;
+	i0 = #10000000 1'b1;
+	i0 = #10000000 1'b0;
+end 
+endmodule
+

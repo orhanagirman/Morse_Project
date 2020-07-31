@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/user/Desktop/rom/simulation/qsim
+vhard_block
+Z1 !s110 1577215728
+!i10b 1
+!s100 0e2o:DQ@<gg89kk[Db@he1
+IDncQnU0oUUeYlmT6I8b`f2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1577215727
+Z4 8odev.vo
+Z5 Fodev.vo
+L0 1580
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1577215728.000000
+Z8 !s107 odev.vo|
+Z9 !s90 -work|work|odev.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vodev
+R1
+!i10b 1
+!s100 DkzeHoGz9g@zoo0g?1PaR0
+I5GLPJLnV7NA>6R]nb8Q[50
+R2
+R0
+R3
+R4
+R5
+L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vodev_vlg_vec_tst
+R1
+!i10b 1
+!s100 5YeNF5kn_K`Q8ja]aSm3Q1
+ITGfgc<G4n>ZmBObBNi=Bc0
+R2
+R0
+w1577215725
+8Waveform9.vwf.vt
+FWaveform9.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform9.vwf.vt|
+!s90 -work|work|Waveform9.vwf.vt|
+!i113 1
+R10
+R11

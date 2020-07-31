@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/adcproject2/simulation/qsim
+vadcproject2
+Z1 !s110 1575924087
+!i10b 1
+!s100 9ml>fH^iOC91]84;nPoGM0
+I3z7n9@C1MIM>K:ghEZnY_2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1575924086
+Z4 8adcproject2.vo
+Z5 Fadcproject2.vo
+L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1575924087.000000
+Z8 !s107 adcproject2.vo|
+Z9 !s90 -work|work|adcproject2.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vadcproject2_vlg_vec_tst
+R1
+!i10b 1
+!s100 hSmOmcTN]2b6moWZI^GCA3
+IUWXG7cEB><TVh4=eU;foM1
+R2
+R0
+w1575924083
+8Waveform7.vwf.vt
+FWaveform7.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform7.vwf.vt|
+!s90 -work|work|Waveform7.vwf.vt|
+!i113 1
+R10
+R11
+vhard_block
+R1
+!i10b 1
+!s100 <X6i`2m1af7e?:H`X2?5=1
+IdfQ^l94Oj;6`4Qo4YAg;j3
+R2
+R0
+R3
+R4
+R5
+L0 922
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

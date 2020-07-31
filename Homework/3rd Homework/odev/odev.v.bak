@@ -1,0 +1,26 @@
+module odev()
+
+
+
+
+endmodule
+
+
+
+module dflipflop(Q1,Q2,clk,D)
+
+output Q1,Q2;
+input clk,D;
+wire w1,w2,w3,w4,w5,w6;
+
+nand n1(w1,w4,w2);
+nand n2(w2,w1,clk);
+nand n3(w3,clk,w2,w4);
+nand n4(w4,D,w3);
+nand n5(w5,w6,w2);
+nand n6(w6,w3,w5);
+
+Q1=W5;
+Q2=W6;
+
+endmodule

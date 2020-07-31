@@ -1,0 +1,40 @@
+module multiplier(input mc0,mc1,mc2,mc3,ml0,ml1,start,clk, output out1,out2,out3,out4,out5,out6);
+
+wire wcout1,wcout2,wcout3,wcout4;
+
+adder_with_memory    awm1(out1,wcout1,mc0,clk,0);
+adder_with_memory    awm1(out2,wcout2,mc1,clk,wcout1);
+adder_with_memory    awm1(out3,wcout3,mc2,clk,wcout2);
+adder_with_memory    awm1(out4,wcout4,mc3,clk,wcout3);
+adder_with_memory    awm1(out5,out6,wcout4,clk,0);
+
+endmodule
+
+
+ 
+
+module adder_with_memory(s,cout,inp1,clk,cin);
+
+input inp1,clk,cin;
+output out1,cout;
+wire add1,add2,add3,adds,dff1,dff2,dff3,dff4,dff5;
+
+and a1(add1,inp1,dff4);
+xor a2(add2,inp1,dff4);
+and a3(add3,add2,cin);
+xor a4(adds,add2,cin);
+or  a5(cout,add1,add3);
+
+not n0(dff1,adds);
+nand n1(dff2,adds,clk);
+nand n2(dff3,dff1,clk);
+nand n3(dff4,dff2,dff5);
+nand n4(dff5,dff4,dff3);
+
+assign s=(adds);
+
+endmodule
+
+
+
+
